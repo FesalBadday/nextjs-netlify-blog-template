@@ -1,0 +1,26 @@
+{
+  "name": "cpnt200-a1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.6.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  },
+  "resolutions": {
+    "nth-check": "^2.0.1",
+    "glob-parent": "^5.1.2"
+  }
+}
