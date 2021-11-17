@@ -7,6 +7,7 @@
   </div>
 </template>
 
+<script>
 export default {
   head() {
     return {
@@ -14,3 +15,4 @@ export default {
     };
   },
 };
+</script>
